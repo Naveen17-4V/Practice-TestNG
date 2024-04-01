@@ -47,6 +47,6 @@ WebDriver driver;
 
 	@Test(priority=11)
 	public void closeBroswer() {
-		driver.close();
+		driver.quit();
 }
 	}
